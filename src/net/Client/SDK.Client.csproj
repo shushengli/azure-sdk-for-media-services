@@ -172,6 +172,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AcsTokenProvider.cs" />
     <Compile Include="Collections\AssetFilterBaseCollection.cs" />
     <Compile Include="Collections\EncodingReservedUnitCollection.cs" />
     <Compile Include="Collections\TaskNotificationSubscriptionCollection.cs" />
@@ -292,6 +293,7 @@
     <Compile Include="Entities\ITaskNotificationSubscription.cs" />
     <Compile Include="Entities\NotificationEndpointCredentialType.cs" />
     <Compile Include="Entities\TaskNotificationSubscription.cs" />
+    <Compile Include="ITokenProvider.cs" />
     <Compile Include="Live\AdMarkerSource.cs" />
     <Compile Include="Entities\IFilterTrackPropertyCondition.cs" />
     <Compile Include="Entities\IStreamingAssetFilter.cs" />
@@ -315,6 +317,7 @@
     <Compile Include="Live\AkamaiSignatureHeaderAuthenticationKey.cs" />
     <Compile Include="Live\AsyncHelper.cs" />
     <Compile Include="Live\AudioStream.cs" />
+    <Compile Include="Live\CdnProviderType.cs" />
     <Compile Include="Live\ChannelAccessControl.cs" />
     <Compile Include="Live\ChannelAccessControlData.cs" />
     <Compile Include="Live\ChannelBaseCollection.cs" />
@@ -386,7 +389,6 @@
     <Compile Include="Telemetry\StreamingEndPointRequestLog.cs" />
     <Compile Include="Telemetry\StreamingEndPointRequestLogCollection.cs" />
     <Compile Include="Telemetry\TelemetryStorage.cs" />
-    <Compile Include="Telemetry\TelemetryStorageFactory.cs" />
     <Compile Include="Telemetry\TelemetryUtilities.cs" />
     <Compile Include="TransientFaultHandling\IRetryPolicyAdapter.cs" />
     <Compile Include="TransientFaultHandling\RetryPolicyExtensions.cs" />
